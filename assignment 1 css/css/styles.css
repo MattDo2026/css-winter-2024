@@ -1,0 +1,148 @@
+/* Font Styles */
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rubik-80s-fade-regular {
+    font-family: "Rubik 80s Fade", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Container Styles */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:lightgray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    background-color: lightblue; 
+    border-radius: 10px; 
+    padding: 15px; 
+}
+
+/* Special Class in Paragraph */
+p .special {
+    font-family: "Rubik 80s Fade", system-ui, sans-serif;
+    color: red; 
+}
+p .sleeves{
+    color: red;
+}
+p .honestly{
+    color: blue;
+}
+p .wink{
+    color: plum;
+}
+p .brink{
+    color: lime;
+}
+p .news{
+    font-weight: bolder;
+    color: darkred;
+}
+p .problems{
+    font-weight: bolder;
+    color: rgb(146, 15, 223);
+}
+p .rises {
+    font-family: "Rubik 80s Fade", system-ui, sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(45deg, #ff7e5f, #ffcd02, #ff5e3a); 
+    -webkit-background-clip: text;
+    color: transparent;
+}
+p .gold{
+    font-family: "Rubik 80s Fade", system-ui, sans-serif;
+    color: gold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+}
+p .truth{
+    color: darkcyan;
+    font-weight: bold;
+}
+/* Adjustments to Specific Paragraphs */
+p:last-child {
+    margin-bottom: 0;
+}
+
+p:nth-of-type(1) {
+    font-family: "Shadows Into Light", cursive, sans-serif;
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+}
+
+p:nth-of-type(2),
+p:nth-of-type(6) {
+    font-family: "Protest Guerrilla", sans-serif;
+    color: navy;
+}
+
+p:nth-of-type(4) {
+    font-family: "Shadows Into Light", cursive, sans-serif;
+    color: rgba(228, 228, 45, 0.712);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+}
+p:nth-of-type(3),
+p:nth-of-type(7),
+p:nth-of-type(10),
+p:nth-of-type(12) {
+    font-family: "Lobster", sans-serif;
+    color: white;
+    text-decoration: underline; 
+    outline: 50px gray; 
+    padding: 8px; 
+}
+
+p:nth-of-type(9),
+p:nth-of-type(11) {
+    font-family: "Protest Guerrilla", sans-serif;
+    color: teal;
+}
+
+p:nth-of-type(5),
+p:nth-of-type(8) {
+    font-family: "Lobster", sans-serif;
+}
